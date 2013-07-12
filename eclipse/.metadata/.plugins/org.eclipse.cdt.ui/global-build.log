@@ -1,0 +1,6 @@
+14:20:00 **** Build of configuration Default for project my_game ****
+make build 
+make: *** No rule to make target `build'.  Stop.
+14:21:57 **** Incremental Build of configuration Default for project my_game ****
+make all 
+clang  -o my_game `/opt/local/bin/pkg-config --libs allegro-5.0 allegro_main-5.0 allegro_image-5.0 allegro_font-5.0 allegro_audio-5.0 allegro_acodec-5.0 allegro_primitives-5.0`

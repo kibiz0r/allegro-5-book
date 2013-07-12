@@ -1,0 +1,40 @@
+# Generic Makefile for compiling an Allegro 5 game
+
+# This is the name of your game, and the executable
+TARGET := my_game
+
+# This is where we list our addons
+PKGS := allegro-5.0 allegro_main-5.0 allegro_image-5.0 allegro_font-5.0 allegro_audio-5.0 allegro_acodec-5.0 allegro_primitives-5.0
+
+# We can change these to customize our project directory
+SRCDIR := src
+OBJDIR := obj
+INCLUDEDIR := include
+
+CC := clang # Our compiler, could be gcc or g++ instead
+CFLAGS := -g -Wall -I$(INCLUDEDIR) `pkg-config --cflags $(PKGS)`
+LIBS := `pkg-config --libs $(PKGS)`
+
+# Our source extension, could be cpp instead
+SRCEXT = c
+SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
+OBJECTS := $(patsubst $(SRCDIR)/%,$(OBJDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
+DEPS := $(OBJECTS:.o=.deps)
+
+$(TARGET): $(OBJECTS)
+	@echo " Linking..."; $(CC) $^ -o $(TARGET) $(LIBS)
+
+$(OBJDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
+	@mkdir -p $(OBJDIR)
+	@echo " CC $<"; $(CC) $(CFLAGS) -MD -MF $(@:.o=.deps) -c -o $@ $<
+
+clean:
+	@echo " Cleaning..."; $(RM) -r $(OBJDIR) $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+# -include $(DEPS)
+# 
+# .PHONY: clean run
+
