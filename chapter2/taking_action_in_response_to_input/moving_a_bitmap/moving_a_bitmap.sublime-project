@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/kibiyama/git/allegro-5-book/chapter2/taking_action_in_response_to_input/moving_a_bitmap"
+		}
+	],
+	"settings":
+	{
+		"sublimegdb_commandline": "gdb --interpreter=mi ./my_game",
+		"sublimegdb_workingdir": "${home}/git/allegro-5-book/chapter2/putting_graphics_on_screen"
+	}
+}

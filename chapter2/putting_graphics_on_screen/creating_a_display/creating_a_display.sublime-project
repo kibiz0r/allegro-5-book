@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/kibiyama/git/allegro-5-book/chapter2/putting_graphics_on_screen/creating_a_display"
+		}
+	],
+	"settings":
+	{
+		"sublimegdb_commandline": "gdb --interpreter=mi ./my_game",
+		"sublimegdb_workingdir": "${home}/git/allegro-5-book/chapter2/putting_graphics_on_screen"
+	}
+}

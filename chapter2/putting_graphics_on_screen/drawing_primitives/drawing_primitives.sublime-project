@@ -1,0 +1,8 @@
+{
+	"settings":
+    {
+         "sublimegdb_workingdir": "${home}/git/allegro-5-book/chapter2/putting_graphics_on_screen",
+         // NOTE: You MUST provide --interpreter=mi for the plugin to work
+         "sublimegdb_commandline": "gdb --interpreter=mi ./my_game"
+    }
+}

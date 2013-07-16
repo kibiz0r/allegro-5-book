@@ -1,6 +1,6 @@
 # Simple Makefile for compiling an Allegro 5 game
 
-EXECUTABLE_NAME := my_game
+EXECUTABLE_NAME := creating_a_display
 
 ALLEGRO_LIBS := allegro-5.0 \
 	allegro_main-5.0 \
@@ -12,7 +12,7 @@ ALLEGRO_LIBS := allegro-5.0 \
 
 # Your compiler may be different
 CC := clang
-PKG_CONFIG := /opt/local/bin/pkg-config
+PKG_CONFIG := /usr/local/bin/pkg-config
 CFLAGS := -g -Wall -MMD -Iinclude `$(PKG_CONFIG) --cflags $(ALLEGRO_LIBS)`
 LIBS := `$(PKG_CONFIG) --libs $(ALLEGRO_LIBS)`
 
