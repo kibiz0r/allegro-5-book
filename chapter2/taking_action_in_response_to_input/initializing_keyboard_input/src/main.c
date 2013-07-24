@@ -68,23 +68,15 @@ int main(int argc, char **argv)
    bad_guy_y = arena_height / 4;
    bad_guy_color = al_color_name("red");
 
-   while (!al_key_down(keyboard_state, ALLEGRO_KEY_ESCAPE))
-   {
-      al_get_keyboard_state(keyboard_state);
-
-      al_clear_to_color(black);
-
-      al_draw_bitmap(hero_bitmap,
-         hero_x - hero_half_size,
-         hero_y - hero_half_size,
-         0);
-      al_draw_filled_circle(bad_guy_x - bad_guy_half_size,
-         bad_guy_y - bad_guy_half_size,
-         bad_guy_half_size,
-         bad_guy_color);
-
-      al_flip_display();
-   }
+   al_draw_bitmap(hero_bitmap,
+      hero_x - hero_half_size,
+      hero_y - hero_half_size,
+      0);
+   al_draw_filled_circle(bad_guy_x - bad_guy_half_size,
+      bad_guy_y - bad_guy_half_size,
+      bad_guy_half_size,
+      bad_guy_color);
+   al_flip_display();
  
    return 0;
 }

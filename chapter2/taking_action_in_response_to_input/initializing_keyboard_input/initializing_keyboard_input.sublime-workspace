@@ -1,0 +1,260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 1072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main.c",
+			"settings":
+			{
+				"buffer_size": 1789,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"clean",
+				"Build: Clean"
+			],
+			[
+				"sublime",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Stop Debugging"
+			],
+			[
+				"debug",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"bui",
+				"Build: Build"
+			],
+			[
+				"",
+				"Build: Clean"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 300.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kibiyama/git/allegro-5-book/chapter2/putting_graphics_on_screen/creating_a_display/src/main.c",
+		"/Users/kibiyama/git/allegro-5-book/chapter2/putting_graphics_on_screen/creating_a_display/Makefile",
+		"/Users/kibiyama/Library/Application Support/Sublime Text 2/Packages/Makefile/Make.sublime-build",
+		"/Users/kibiyama/git/allegro-5-book/chapter2/putting_graphics_on_screen/putting_graphics_on_screen.sublime-project",
+		"/Users/kibiyama/Library/Application Support/Sublime Text 2/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/Users/kibiyama/Library/Application Support/Sublime Text 2/Packages/User/SublimeGDB.sublime-settings",
+		"/Users/kibiyama/git/allegro-5-book/chapter2/putting_graphics_on_screen/Makefile",
+		"/Users/kibiyama/git/allegro-5-book/chapter2/putting_graphics_on_screen/src/main.c",
+		"/Users/kibiyama/git/allegro-5-book/chapter1/src/main.c",
+		"/Users/kibiyama/git/allegro-5-book/chapter1/src/my_game.c",
+		"/Users/kibiyama/Library/Application Support/Sublime Text 2/Packages/C++/C++.sublime-build",
+		"/Users/kibiyama/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kibiyama/git/allegro5/examples/ex_blend.c"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Makefile",
+					"settings":
+					{
+						"buffer_size": 1072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main.c",
+					"settings":
+					{
+						"buffer_size": 1789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1702,
+								1702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 164.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 355.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"src/main.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"movin",
+				"/Users/kibiyama/git/allegro-5-book/chapter2/taking_action_in_response_to_input/moving_a_bitmap/moving_a_bitmap.sublime-project"
+			],
+			[
+				"",
+				"/Users/kibiyama/git/allegro-5-book/chapter2/putting_graphics_on_screen/drawing_a_bitmap/drawing_a_bitmap.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
